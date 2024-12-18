@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "python-hdc-tuto"
+version = "0.1.0"
+description = ""
+authors = ["David Villa Alises <david.villa@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.2.0"
+matplotlib = "^3.10.0"
+pandas = "^2.2.3"
+scikit-learn = "^1.6.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
