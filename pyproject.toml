@@ -4,13 +4,15 @@ version = "0.1.0"
 description = ""
 authors = ["David Villa Alises <david.villa@gmail.com>"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.11"
 numpy = "^2.2.0"
 matplotlib = "^3.10.0"
 pandas = "^2.2.3"
 scikit-learn = "^1.6.0"
+seaborn = "^0.13.2"
 
 
 [tool.poetry.group.dev.dependencies]
